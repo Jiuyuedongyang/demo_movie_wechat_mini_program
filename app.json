@@ -1,0 +1,44 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/movies/movies",
+    "pages/movieDetail/movieDetail"
+    
+
+
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#489b81",
+    "navigationBarTitleText": "lyc",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/list/list",
+      "text": "文与字",
+      "iconPath": "/images/icon/intro.png",
+      "selectedIconPath": "/images/icon/intro_click.png",
+      "color":"51A59A",
+      "selectedColor":"FFF270",
+      "backgroundColor":"FFD1FD"
+    }, {
+      "pagePath": "pages/movies/movies",
+      "text": "电影频道",
+      "iconPath": "/images/icon/movie.png",
+      "selectedIconPath": "/images/icon/movie_click.png",
+      "color":"51A59A",
+      "selectedColor":"FFF270",
+      "backgroundColor":"FFD1FD"
+
+    }]
+  }
+}
