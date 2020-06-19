@@ -1,0 +1,2 @@
+# demo_movie_wechat_mini_program
+跟着尚硅谷案例做的一个电影详情的demo
